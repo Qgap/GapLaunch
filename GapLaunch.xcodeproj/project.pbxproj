@@ -10,11 +10,30 @@
 		048DAE371D2E022600A36BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE361D2E022600A36BC4 /* main.m */; };
 		048DAE3A1D2E022600A36BC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE391D2E022600A36BC4 /* AppDelegate.m */; };
 		048DAE3D1D2E022600A36BC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE3C1D2E022600A36BC4 /* ViewController.m */; };
-		048DAE401D2E022600A36BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE3E1D2E022600A36BC4 /* Main.storyboard */; };
 		048DAE421D2E022600A36BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE411D2E022600A36BC4 /* Assets.xcassets */; };
-		048DAE451D2E022600A36BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE431D2E022600A36BC4 /* LaunchScreen.storyboard */; };
 		048DAE501D2E022600A36BC4 /* GapLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE4F1D2E022600A36BC4 /* GapLaunchTests.m */; };
 		048DAE5B1D2E022600A36BC4 /* GapLaunchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE5A1D2E022600A36BC4 /* GapLaunchUITests.m */; };
+		048DAE6F1D2E023500A36BC4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048DAE6E1D2E023500A36BC4 /* NotificationCenter.framework */; };
+		048DAE731D2E023500A36BC4 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE721D2E023500A36BC4 /* TodayViewController.m */; };
+		048DAE7A1D2E023500A36BC4 /* Launch.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 048DAE6C1D2E023500A36BC4 /* Launch.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		048DAE861D2E041400A36BC4 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE811D2E041400A36BC4 /* DBHelper.m */; };
+		048DAE871D2E041400A36BC4 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE811D2E041400A36BC4 /* DBHelper.m */; };
+		048DAE881D2E041400A36BC4 /* NSDictionary_IOCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE831D2E041400A36BC4 /* NSDictionary_IOCExtensions.m */; };
+		048DAE891D2E041400A36BC4 /* NSDictionary_IOCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE831D2E041400A36BC4 /* NSDictionary_IOCExtensions.m */; };
+		048DAE8A1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE851D2E041400A36BC4 /* NSString+Encrypt.m */; };
+		048DAE8B1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE851D2E041400A36BC4 /* NSString+Encrypt.m */; };
+		048DAE971D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8D1D2E045D00A36BC4 /* AddLaunchViewController.m */; };
+		048DAE981D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8D1D2E045D00A36BC4 /* AddLaunchViewController.m */; };
+		048DAE991D2E045D00A36BC4 /* AppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8F1D2E045D00A36BC4 /* AppItem.m */; };
+		048DAE9A1D2E045D00A36BC4 /* AppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8F1D2E045D00A36BC4 /* AppItem.m */; };
+		048DAE9D1D2E045D00A36BC4 /* InstalledAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE931D2E045D00A36BC4 /* InstalledAppManager.m */; };
+		048DAE9E1D2E045D00A36BC4 /* InstalledAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE931D2E045D00A36BC4 /* InstalledAppManager.m */; };
+		048DAE9F1D2E045D00A36BC4 /* LaunchItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE941D2E045D00A36BC4 /* LaunchItem.plist */; };
+		048DAEA01D2E045D00A36BC4 /* LaunchItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE941D2E045D00A36BC4 /* LaunchItem.plist */; };
+		048DAEA11D2E045D00A36BC4 /* LaunchItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE961D2E045D00A36BC4 /* LaunchItemCell.m */; };
+		048DAEA21D2E045D00A36BC4 /* LaunchItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE961D2E045D00A36BC4 /* LaunchItemCell.m */; };
+		707FCDBD517C0020C1FEC8C6 /* libPods-GapLaunch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65F4DD8D85295FD6F95A82B /* libPods-GapLaunch.a */; };
+		E0BA275B3031275A9E5EC2E2 /* libPods-Launch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 747578C96117142B0042C9FB /* libPods-Launch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +51,28 @@
 			remoteGlobalIDString = 048DAE311D2E022600A36BC4;
 			remoteInfo = GapLaunch;
 		};
+		048DAE781D2E023500A36BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048DAE2A1D2E022600A36BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048DAE6B1D2E023500A36BC4;
+			remoteInfo = Launch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		048DAE7E1D2E023600A36BC4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				048DAE7A1D2E023500A36BC4 /* Launch.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		048DAE321D2E022600A36BC4 /* GapLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GapLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +81,7 @@
 		048DAE391D2E022600A36BC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		048DAE3B1D2E022600A36BC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		048DAE3C1D2E022600A36BC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		048DAE3F1D2E022600A36BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048DAE411D2E022600A36BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		048DAE441D2E022600A36BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048DAE461D2E022600A36BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048DAE4B1D2E022600A36BC4 /* GapLaunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapLaunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048DAE4F1D2E022600A36BC4 /* GapLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapLaunchTests.m; sourceTree = "<group>"; };
@@ -51,6 +89,35 @@
 		048DAE561D2E022600A36BC4 /* GapLaunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapLaunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048DAE5A1D2E022600A36BC4 /* GapLaunchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapLaunchUITests.m; sourceTree = "<group>"; };
 		048DAE5C1D2E022600A36BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048DAE6C1D2E023500A36BC4 /* Launch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Launch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		048DAE6E1D2E023500A36BC4 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		048DAE711D2E023500A36BC4 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		048DAE721D2E023500A36BC4 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		048DAE771D2E023500A36BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048DAE801D2E041400A36BC4 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		048DAE811D2E041400A36BC4 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		048DAE821D2E041400A36BC4 /* NSDictionary_IOCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_IOCExtensions.h; sourceTree = "<group>"; };
+		048DAE831D2E041400A36BC4 /* NSDictionary_IOCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_IOCExtensions.m; sourceTree = "<group>"; };
+		048DAE841D2E041400A36BC4 /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		048DAE851D2E041400A36BC4 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		048DAE8C1D2E045D00A36BC4 /* AddLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLaunchViewController.h; sourceTree = "<group>"; };
+		048DAE8D1D2E045D00A36BC4 /* AddLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLaunchViewController.m; sourceTree = "<group>"; };
+		048DAE8E1D2E045D00A36BC4 /* AppItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppItem.h; sourceTree = "<group>"; };
+		048DAE8F1D2E045D00A36BC4 /* AppItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppItem.m; sourceTree = "<group>"; };
+		048DAE921D2E045D00A36BC4 /* InstalledAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstalledAppManager.h; sourceTree = "<group>"; };
+		048DAE931D2E045D00A36BC4 /* InstalledAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstalledAppManager.m; sourceTree = "<group>"; };
+		048DAE941D2E045D00A36BC4 /* LaunchItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LaunchItem.plist; sourceTree = "<group>"; };
+		048DAE951D2E045D00A36BC4 /* LaunchItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchItemCell.h; sourceTree = "<group>"; };
+		048DAE961D2E045D00A36BC4 /* LaunchItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchItemCell.m; sourceTree = "<group>"; };
+		048DAEA71D2E04EC00A36BC4 /* Launch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Launch.entitlements; sourceTree = "<group>"; };
+		048DAEA81D2E050300A36BC4 /* GapLaunch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GapLaunch.entitlements; sourceTree = "<group>"; };
+		048DAEAC1D2E413100A36BC4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4AA4FDB1D2B73B8F0F55F1D8 /* Pods-Launch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Launch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Launch/Pods-Launch.release.xcconfig"; sourceTree = "<group>"; };
+		747578C96117142B0042C9FB /* libPods-Launch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Launch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819EA7916A12A3187BFD879F /* Pods-Launch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Launch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Launch/Pods-Launch.debug.xcconfig"; sourceTree = "<group>"; };
+		A65F4DD8D85295FD6F95A82B /* libPods-GapLaunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GapLaunch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A820B8E4AD00035BA2B1D82D /* Pods-GapLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GapLaunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-GapLaunch/Pods-GapLaunch.release.xcconfig"; sourceTree = "<group>"; };
+		B1686A0EB37A9DD7F3165A60 /* Pods-GapLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GapLaunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GapLaunch/Pods-GapLaunch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707FCDBD517C0020C1FEC8C6 /* libPods-GapLaunch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +143,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		048DAE691D2E023500A36BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAE6F1D2E023500A36BC4 /* NotificationCenter.framework in Frameworks */,
+				E0BA275B3031275A9E5EC2E2 /* libPods-Launch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +161,10 @@
 				048DAE341D2E022600A36BC4 /* GapLaunch */,
 				048DAE4E1D2E022600A36BC4 /* GapLaunchTests */,
 				048DAE591D2E022600A36BC4 /* GapLaunchUITests */,
+				048DAE701D2E023500A36BC4 /* Launch */,
+				048DAE6D1D2E023500A36BC4 /* Frameworks */,
 				048DAE331D2E022600A36BC4 /* Products */,
+				366F374442B11E09FDA5FB4E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +174,7 @@
 				048DAE321D2E022600A36BC4 /* GapLaunch.app */,
 				048DAE4B1D2E022600A36BC4 /* GapLaunchTests.xctest */,
 				048DAE561D2E022600A36BC4 /* GapLaunchUITests.xctest */,
+				048DAE6C1D2E023500A36BC4 /* Launch.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,13 +182,21 @@
 		048DAE341D2E022600A36BC4 /* GapLaunch */ = {
 			isa = PBXGroup;
 			children = (
+				048DAE7F1D2E041400A36BC4 /* Helper */,
+				048DAEA81D2E050300A36BC4 /* GapLaunch.entitlements */,
+				048DAE8C1D2E045D00A36BC4 /* AddLaunchViewController.h */,
+				048DAE8D1D2E045D00A36BC4 /* AddLaunchViewController.m */,
+				048DAE8E1D2E045D00A36BC4 /* AppItem.h */,
+				048DAE8F1D2E045D00A36BC4 /* AppItem.m */,
+				048DAE921D2E045D00A36BC4 /* InstalledAppManager.h */,
+				048DAE931D2E045D00A36BC4 /* InstalledAppManager.m */,
+				048DAE951D2E045D00A36BC4 /* LaunchItemCell.h */,
+				048DAE961D2E045D00A36BC4 /* LaunchItemCell.m */,
 				048DAE381D2E022600A36BC4 /* AppDelegate.h */,
 				048DAE391D2E022600A36BC4 /* AppDelegate.m */,
 				048DAE3B1D2E022600A36BC4 /* ViewController.h */,
 				048DAE3C1D2E022600A36BC4 /* ViewController.m */,
-				048DAE3E1D2E022600A36BC4 /* Main.storyboard */,
 				048DAE411D2E022600A36BC4 /* Assets.xcassets */,
-				048DAE431D2E022600A36BC4 /* LaunchScreen.storyboard */,
 				048DAE461D2E022600A36BC4 /* Info.plist */,
 				048DAE351D2E022600A36BC4 /* Supporting Files */,
 			);
@@ -117,7 +206,9 @@
 		048DAE351D2E022600A36BC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				048DAE941D2E045D00A36BC4 /* LaunchItem.plist */,
 				048DAE361D2E022600A36BC4 /* main.m */,
+				048DAEAC1D2E413100A36BC4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +231,51 @@
 			path = GapLaunchUITests;
 			sourceTree = "<group>";
 		};
+		048DAE6D1D2E023500A36BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE6E1D2E023500A36BC4 /* NotificationCenter.framework */,
+				A65F4DD8D85295FD6F95A82B /* libPods-GapLaunch.a */,
+				747578C96117142B0042C9FB /* libPods-Launch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		048DAE701D2E023500A36BC4 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				048DAEA71D2E04EC00A36BC4 /* Launch.entitlements */,
+				048DAE711D2E023500A36BC4 /* TodayViewController.h */,
+				048DAE721D2E023500A36BC4 /* TodayViewController.m */,
+				048DAE771D2E023500A36BC4 /* Info.plist */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		048DAE7F1D2E041400A36BC4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE801D2E041400A36BC4 /* DBHelper.h */,
+				048DAE811D2E041400A36BC4 /* DBHelper.m */,
+				048DAE821D2E041400A36BC4 /* NSDictionary_IOCExtensions.h */,
+				048DAE831D2E041400A36BC4 /* NSDictionary_IOCExtensions.m */,
+				048DAE841D2E041400A36BC4 /* NSString+Encrypt.h */,
+				048DAE851D2E041400A36BC4 /* NSString+Encrypt.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		366F374442B11E09FDA5FB4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1686A0EB37A9DD7F3165A60 /* Pods-GapLaunch.debug.xcconfig */,
+				A820B8E4AD00035BA2B1D82D /* Pods-GapLaunch.release.xcconfig */,
+				819EA7916A12A3187BFD879F /* Pods-Launch.debug.xcconfig */,
+				4AA4FDB1D2B73B8F0F55F1D8 /* Pods-Launch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,13 +283,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048DAE5F1D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunch" */;
 			buildPhases = (
+				4211EAFE923AA35E4CEC0BC9 /* 📦 Check Pods Manifest.lock */,
 				048DAE2E1D2E022600A36BC4 /* Sources */,
 				048DAE2F1D2E022600A36BC4 /* Frameworks */,
 				048DAE301D2E022600A36BC4 /* Resources */,
+				048DAE7E1D2E023600A36BC4 /* Embed App Extensions */,
+				A8F9C43463D01BB08BE1749D /* 📦 Embed Pods Frameworks */,
+				9173BA8C09D5408BC386E920 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				048DAE791D2E023500A36BC4 /* PBXTargetDependency */,
 			);
 			name = GapLaunch;
 			productName = GapLaunch;
@@ -196,6 +337,26 @@
 			productReference = 048DAE561D2E022600A36BC4 /* GapLaunchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		048DAE6B1D2E023500A36BC4 /* Launch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DAE7B1D2E023600A36BC4 /* Build configuration list for PBXNativeTarget "Launch" */;
+			buildPhases = (
+				D28D49306DAC8D41A380C227 /* 📦 Check Pods Manifest.lock */,
+				048DAE681D2E023500A36BC4 /* Sources */,
+				048DAE691D2E023500A36BC4 /* Frameworks */,
+				048DAE6A1D2E023500A36BC4 /* Resources */,
+				B1E561E68EA94B5166B6D8E7 /* 📦 Embed Pods Frameworks */,
+				17CAD291C27832FB0C46217F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Launch;
+			productName = Launch;
+			productReference = 048DAE6C1D2E023500A36BC4 /* Launch.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +368,12 @@
 				TargetAttributes = {
 					048DAE311D2E022600A36BC4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7UH29K5MGM;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					048DAE4A1D2E022600A36BC4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -215,6 +382,15 @@
 					048DAE551D2E022600A36BC4 = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 048DAE311D2E022600A36BC4;
+					};
+					048DAE6B1D2E023500A36BC4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7UH29K5MGM;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -234,6 +410,7 @@
 				048DAE311D2E022600A36BC4 /* GapLaunch */,
 				048DAE4A1D2E022600A36BC4 /* GapLaunchTests */,
 				048DAE551D2E022600A36BC4 /* GapLaunchUITests */,
+				048DAE6B1D2E023500A36BC4 /* Launch */,
 			);
 		};
 /* End PBXProject section */
@@ -243,9 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048DAE451D2E022600A36BC4 /* LaunchScreen.storyboard in Resources */,
+				048DAE9F1D2E045D00A36BC4 /* LaunchItem.plist in Resources */,
 				048DAE421D2E022600A36BC4 /* Assets.xcassets in Resources */,
-				048DAE401D2E022600A36BC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,16 +439,124 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		048DAE6A1D2E023500A36BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAEA01D2E045D00A36BC4 /* LaunchItem.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17CAD291C27832FB0C46217F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Launch/Pods-Launch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4211EAFE923AA35E4CEC0BC9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9173BA8C09D5408BC386E920 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GapLaunch/Pods-GapLaunch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F9C43463D01BB08BE1749D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GapLaunch/Pods-GapLaunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E561E68EA94B5166B6D8E7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Launch/Pods-Launch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28D49306DAC8D41A380C227 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		048DAE2E1D2E022600A36BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048DAE971D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */,
 				048DAE3D1D2E022600A36BC4 /* ViewController.m in Sources */,
+				048DAE9D1D2E045D00A36BC4 /* InstalledAppManager.m in Sources */,
 				048DAE3A1D2E022600A36BC4 /* AppDelegate.m in Sources */,
+				048DAEA11D2E045D00A36BC4 /* LaunchItemCell.m in Sources */,
+				048DAE881D2E041400A36BC4 /* NSDictionary_IOCExtensions.m in Sources */,
+				048DAE991D2E045D00A36BC4 /* AppItem.m in Sources */,
+				048DAE8A1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */,
 				048DAE371D2E022600A36BC4 /* main.m in Sources */,
+				048DAE861D2E041400A36BC4 /* DBHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +576,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		048DAE681D2E023500A36BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAE9A1D2E045D00A36BC4 /* AppItem.m in Sources */,
+				048DAE731D2E023500A36BC4 /* TodayViewController.m in Sources */,
+				048DAE8B1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */,
+				048DAEA21D2E045D00A36BC4 /* LaunchItemCell.m in Sources */,
+				048DAE981D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */,
+				048DAE9E1D2E045D00A36BC4 /* InstalledAppManager.m in Sources */,
+				048DAE891D2E041400A36BC4 /* NSDictionary_IOCExtensions.m in Sources */,
+				048DAE871D2E041400A36BC4 /* DBHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -305,26 +604,12 @@
 			target = 048DAE311D2E022600A36BC4 /* GapLaunch */;
 			targetProxy = 048DAE571D2E022600A36BC4 /* PBXContainerItemProxy */;
 		};
+		048DAE791D2E023500A36BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048DAE6B1D2E023500A36BC4 /* Launch */;
+			targetProxy = 048DAE781D2E023500A36BC4 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		048DAE3E1D2E022600A36BC4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				048DAE3F1D2E022600A36BC4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		048DAE431D2E022600A36BC4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				048DAE441D2E022600A36BC4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		048DAE5D1D2E022600A36BC4 /* Debug */ = {
@@ -411,22 +696,32 @@
 		};
 		048DAE601D2E022600A36BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1686A0EB37A9DD7F3165A60 /* Pods-GapLaunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GapLaunch/GapLaunch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = GapLaunch/PrefixHeader.pch;
 				INFOPLIST_FILE = GapLaunch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunch;
+				PRODUCT_BUNDLE_IDENTIFIER = gap.Launch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		048DAE611D2E022600A36BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A820B8E4AD00035BA2B1D82D /* Pods-GapLaunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GapLaunch/GapLaunch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = GapLaunch/PrefixHeader.pch;
 				INFOPLIST_FILE = GapLaunch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunch;
+				PRODUCT_BUNDLE_IDENTIFIER = gap.Launch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -477,6 +772,40 @@
 			};
 			name = Release;
 		};
+		048DAE7C1D2E023600A36BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819EA7916A12A3187BFD879F /* Pods-Launch.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Launch/Launch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = GapLaunch/PrefixHeader.pch;
+				INFOPLIST_FILE = Launch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.Launch.Launch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		048DAE7D1D2E023600A36BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA4FDB1D2B73B8F0F55F1D8 /* Pods-Launch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Launch/Launch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = GapLaunch/PrefixHeader.pch;
+				INFOPLIST_FILE = Launch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.Launch.Launch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -496,6 +825,7 @@
 				048DAE611D2E022600A36BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048DAE621D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunchTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +834,7 @@
 				048DAE641D2E022600A36BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048DAE651D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunchUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +843,16 @@
 				048DAE671D2E022600A36BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048DAE7B1D2E023600A36BC4 /* Build configuration list for PBXNativeTarget "Launch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DAE7C1D2E023600A36BC4 /* Debug */,
+				048DAE7D1D2E023600A36BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
