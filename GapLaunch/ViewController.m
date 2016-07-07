@@ -99,17 +99,24 @@ static NSString *const cellId = @"CellId";
     
     AppItem *item = self.lanchItemsArray[indexPath.row];
     item.launchMark = (item.launchMark == 1 ? 0 :1);
-    
+    BOOL result = nil;
     if ([item.applicationType isEqualToString:@"User"]) {
-        [self.db updateLaunchMark:item.launchMark bundleId:item.urlScheme];
+        result = [self.db updateLaunchMark:item.launchMark bundleId:item.bundleId];
+        NSLog(@"inder :%@, launchMark :%ld , bundleId :%@",indexPath,(long)item.launchMark,item.bundleId);
     } else {
         [self.db updateLaunchMark:item.launchMark urlScheme:item.urlScheme];
+        NSLog(@"inder :%@, launchMark :%ld , urlScheme:%@",indexPath,(long)item.launchMark,item.urlScheme);
     }
     
     if (item.launchMark == 0) {
         [self.lanchItemsArray removeObject:item];
         [self.tableView reloadData];
     }
+    
+    NSLog(result ? @"update success ,":@"update error");
+    
+    [self.tableView reloadData];
+    
 }
 
 - (void)didReceiveMemoryWarning {
