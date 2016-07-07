@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048DAE371D2E022600A36BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE361D2E022600A36BC4 /* main.m */; };
+		048DAE3A1D2E022600A36BC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE391D2E022600A36BC4 /* AppDelegate.m */; };
+		048DAE3D1D2E022600A36BC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE3C1D2E022600A36BC4 /* ViewController.m */; };
+		048DAE401D2E022600A36BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE3E1D2E022600A36BC4 /* Main.storyboard */; };
+		048DAE421D2E022600A36BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE411D2E022600A36BC4 /* Assets.xcassets */; };
+		048DAE451D2E022600A36BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DAE431D2E022600A36BC4 /* LaunchScreen.storyboard */; };
+		048DAE501D2E022600A36BC4 /* GapLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE4F1D2E022600A36BC4 /* GapLaunchTests.m */; };
+		048DAE5B1D2E022600A36BC4 /* GapLaunchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE5A1D2E022600A36BC4 /* GapLaunchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048DAE4C1D2E022600A36BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048DAE2A1D2E022600A36BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048DAE311D2E022600A36BC4;
+			remoteInfo = GapLaunch;
+		};
+		048DAE571D2E022600A36BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048DAE2A1D2E022600A36BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048DAE311D2E022600A36BC4;
+			remoteInfo = GapLaunch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048DAE321D2E022600A36BC4 /* GapLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GapLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048DAE361D2E022600A36BC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048DAE381D2E022600A36BC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048DAE391D2E022600A36BC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048DAE3B1D2E022600A36BC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048DAE3C1D2E022600A36BC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048DAE3F1D2E022600A36BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048DAE411D2E022600A36BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048DAE441D2E022600A36BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048DAE461D2E022600A36BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048DAE4B1D2E022600A36BC4 /* GapLaunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapLaunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048DAE4F1D2E022600A36BC4 /* GapLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapLaunchTests.m; sourceTree = "<group>"; };
+		048DAE511D2E022600A36BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048DAE561D2E022600A36BC4 /* GapLaunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapLaunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048DAE5A1D2E022600A36BC4 /* GapLaunchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapLaunchUITests.m; sourceTree = "<group>"; };
+		048DAE5C1D2E022600A36BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048DAE2F1D2E022600A36BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048DAE481D2E022600A36BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048DAE531D2E022600A36BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048DAE291D2E022600A36BC4 = {
+			isa = PBXGroup;
+			children = (
+				048DAE341D2E022600A36BC4 /* GapLaunch */,
+				048DAE4E1D2E022600A36BC4 /* GapLaunchTests */,
+				048DAE591D2E022600A36BC4 /* GapLaunchUITests */,
+				048DAE331D2E022600A36BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048DAE331D2E022600A36BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE321D2E022600A36BC4 /* GapLaunch.app */,
+				048DAE4B1D2E022600A36BC4 /* GapLaunchTests.xctest */,
+				048DAE561D2E022600A36BC4 /* GapLaunchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048DAE341D2E022600A36BC4 /* GapLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE381D2E022600A36BC4 /* AppDelegate.h */,
+				048DAE391D2E022600A36BC4 /* AppDelegate.m */,
+				048DAE3B1D2E022600A36BC4 /* ViewController.h */,
+				048DAE3C1D2E022600A36BC4 /* ViewController.m */,
+				048DAE3E1D2E022600A36BC4 /* Main.storyboard */,
+				048DAE411D2E022600A36BC4 /* Assets.xcassets */,
+				048DAE431D2E022600A36BC4 /* LaunchScreen.storyboard */,
+				048DAE461D2E022600A36BC4 /* Info.plist */,
+				048DAE351D2E022600A36BC4 /* Supporting Files */,
+			);
+			path = GapLaunch;
+			sourceTree = "<group>";
+		};
+		048DAE351D2E022600A36BC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE361D2E022600A36BC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048DAE4E1D2E022600A36BC4 /* GapLaunchTests */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE4F1D2E022600A36BC4 /* GapLaunchTests.m */,
+				048DAE511D2E022600A36BC4 /* Info.plist */,
+			);
+			path = GapLaunchTests;
+			sourceTree = "<group>";
+		};
+		048DAE591D2E022600A36BC4 /* GapLaunchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048DAE5A1D2E022600A36BC4 /* GapLaunchUITests.m */,
+				048DAE5C1D2E022600A36BC4 /* Info.plist */,
+			);
+			path = GapLaunchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048DAE311D2E022600A36BC4 /* GapLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DAE5F1D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunch" */;
+			buildPhases = (
+				048DAE2E1D2E022600A36BC4 /* Sources */,
+				048DAE2F1D2E022600A36BC4 /* Frameworks */,
+				048DAE301D2E022600A36BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GapLaunch;
+			productName = GapLaunch;
+			productReference = 048DAE321D2E022600A36BC4 /* GapLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048DAE4A1D2E022600A36BC4 /* GapLaunchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DAE621D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunchTests" */;
+			buildPhases = (
+				048DAE471D2E022600A36BC4 /* Sources */,
+				048DAE481D2E022600A36BC4 /* Frameworks */,
+				048DAE491D2E022600A36BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048DAE4D1D2E022600A36BC4 /* PBXTargetDependency */,
+			);
+			name = GapLaunchTests;
+			productName = GapLaunchTests;
+			productReference = 048DAE4B1D2E022600A36BC4 /* GapLaunchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048DAE551D2E022600A36BC4 /* GapLaunchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DAE651D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunchUITests" */;
+			buildPhases = (
+				048DAE521D2E022600A36BC4 /* Sources */,
+				048DAE531D2E022600A36BC4 /* Frameworks */,
+				048DAE541D2E022600A36BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048DAE581D2E022600A36BC4 /* PBXTargetDependency */,
+			);
+			name = GapLaunchUITests;
+			productName = GapLaunchUITests;
+			productReference = 048DAE561D2E022600A36BC4 /* GapLaunchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048DAE2A1D2E022600A36BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gap;
+				TargetAttributes = {
+					048DAE311D2E022600A36BC4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					048DAE4A1D2E022600A36BC4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 048DAE311D2E022600A36BC4;
+					};
+					048DAE551D2E022600A36BC4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 048DAE311D2E022600A36BC4;
+					};
+				};
+			};
+			buildConfigurationList = 048DAE2D1D2E022600A36BC4 /* Build configuration list for PBXProject "GapLaunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048DAE291D2E022600A36BC4;
+			productRefGroup = 048DAE331D2E022600A36BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048DAE311D2E022600A36BC4 /* GapLaunch */,
+				048DAE4A1D2E022600A36BC4 /* GapLaunchTests */,
+				048DAE551D2E022600A36BC4 /* GapLaunchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048DAE301D2E022600A36BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAE451D2E022600A36BC4 /* LaunchScreen.storyboard in Resources */,
+				048DAE421D2E022600A36BC4 /* Assets.xcassets in Resources */,
+				048DAE401D2E022600A36BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048DAE491D2E022600A36BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048DAE541D2E022600A36BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048DAE2E1D2E022600A36BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAE3D1D2E022600A36BC4 /* ViewController.m in Sources */,
+				048DAE3A1D2E022600A36BC4 /* AppDelegate.m in Sources */,
+				048DAE371D2E022600A36BC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048DAE471D2E022600A36BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAE501D2E022600A36BC4 /* GapLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048DAE521D2E022600A36BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DAE5B1D2E022600A36BC4 /* GapLaunchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048DAE4D1D2E022600A36BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048DAE311D2E022600A36BC4 /* GapLaunch */;
+			targetProxy = 048DAE4C1D2E022600A36BC4 /* PBXContainerItemProxy */;
+		};
+		048DAE581D2E022600A36BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048DAE311D2E022600A36BC4 /* GapLaunch */;
+			targetProxy = 048DAE571D2E022600A36BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048DAE3E1D2E022600A36BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DAE3F1D2E022600A36BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048DAE431D2E022600A36BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DAE441D2E022600A36BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048DAE5D1D2E022600A36BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048DAE5E1D2E022600A36BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048DAE601D2E022600A36BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GapLaunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048DAE611D2E022600A36BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GapLaunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048DAE631D2E022600A36BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GapLaunchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapLaunch.app/GapLaunch";
+			};
+			name = Debug;
+		};
+		048DAE641D2E022600A36BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GapLaunchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapLaunch.app/GapLaunch";
+			};
+			name = Release;
+		};
+		048DAE661D2E022600A36BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GapLaunchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GapLaunch;
+			};
+			name = Debug;
+		};
+		048DAE671D2E022600A36BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GapLaunchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapLaunchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GapLaunch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048DAE2D1D2E022600A36BC4 /* Build configuration list for PBXProject "GapLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DAE5D1D2E022600A36BC4 /* Debug */,
+				048DAE5E1D2E022600A36BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048DAE5F1D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DAE601D2E022600A36BC4 /* Debug */,
+				048DAE611D2E022600A36BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048DAE621D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DAE631D2E022600A36BC4 /* Debug */,
+				048DAE641D2E022600A36BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048DAE651D2E022600A36BC4 /* Build configuration list for PBXNativeTarget "GapLaunchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DAE661D2E022600A36BC4 /* Debug */,
+				048DAE671D2E022600A36BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048DAE2A1D2E022600A36BC4 /* Project object */;
+}
