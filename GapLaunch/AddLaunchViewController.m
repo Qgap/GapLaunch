@@ -25,10 +25,11 @@ static NSString *const cellId = @"CellId";
 @property (nonatomic, strong)NSMutableArray *userApplist;
 @property (nonatomic, strong)NSMutableArray *systemAppList;
 @property (nonatomic, strong)NSMutableArray *oldApplist;//<*
-@property (nonatomic, strong)UISegmentedControl *segementContorl;
 
+@property (nonatomic, strong)UISegmentedControl *segementContorl;
 @property (nonatomic, strong)UIRefreshControl *refreshControl;
-@property (nonatomic, strong) DBHelper *db;
+
+@property (nonatomic, strong)DBHelper *db;
 
 @property (nonatomic)Class LSApplicationWorkspace_class;
 
@@ -52,37 +53,41 @@ static NSString *const cellId = @"CellId";
                             action:@selector(refreshControlAction)
                   forControlEvents:UIControlEventValueChanged];
     [self.tableView addSubview:self.refreshControl];
-
+    [self.tableView registerClass:[LaunchItemCell class] forCellReuseIdentifier:cellId];
+    self.tableView.tableFooterView = [[UIView alloc] init];
     
     self.navigationItem.titleView = self.segementContorl;
-    
-    [self.tableView registerClass:[LaunchItemCell class] forCellReuseIdentifier:cellId];
     
     self.db = [DBHelper shareInstance];
     
     self.systemAppList = [[NSMutableArray arrayWithCapacity:20] mutableCopy];
     self.oldApplist = [[NSMutableArray arrayWithCapacity:20] mutableCopy];
-
     self.userApplist = [[NSMutableArray arrayWithArray:[self.db appsListWithType:UserApps]] mutableCopy];
-    
-    
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.clearsSelectionOnViewWillAppear = YES;
-    [self loadData];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if (self.userApplist.count == 0) {
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+        [self loadData];
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    }
 }
 
 - (void)refreshControlAction {
     if (self.segementContorl.selectedSegmentIndex == 0) {
         self.oldApplist = [NSMutableArray arrayWithArray:self.userApplist];
         [self.userApplist removeAllObjects];
+        
     }
     
     [self.refreshControl beginRefreshing];
-    
     // avoid scroll the table crash.
     [self.tableView reloadData];
     [self loadData];

@@ -23,7 +23,6 @@
 		048DAE8A1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE851D2E041400A36BC4 /* NSString+Encrypt.m */; };
 		048DAE8B1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE851D2E041400A36BC4 /* NSString+Encrypt.m */; };
 		048DAE971D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8D1D2E045D00A36BC4 /* AddLaunchViewController.m */; };
-		048DAE981D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8D1D2E045D00A36BC4 /* AddLaunchViewController.m */; };
 		048DAE991D2E045D00A36BC4 /* AppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8F1D2E045D00A36BC4 /* AppItem.m */; };
 		048DAE9A1D2E045D00A36BC4 /* AppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE8F1D2E045D00A36BC4 /* AppItem.m */; };
 		048DAE9D1D2E045D00A36BC4 /* InstalledAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DAE931D2E045D00A36BC4 /* InstalledAppManager.m */; };
@@ -368,6 +367,7 @@
 				TargetAttributes = {
 					048DAE311D2E022600A36BC4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7UH29K5MGM;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -583,7 +583,6 @@
 				048DAE731D2E023500A36BC4 /* TodayViewController.m in Sources */,
 				048DAE8B1D2E041400A36BC4 /* NSString+Encrypt.m in Sources */,
 				048DAEA21D2E045D00A36BC4 /* LaunchItemCell.m in Sources */,
-				048DAE981D2E045D00A36BC4 /* AddLaunchViewController.m in Sources */,
 				048DAE9E1D2E045D00A36BC4 /* InstalledAppManager.m in Sources */,
 				048DAE891D2E041400A36BC4 /* NSDictionary_IOCExtensions.m in Sources */,
 				048DAE871D2E041400A36BC4 /* DBHelper.m in Sources */,
@@ -706,6 +705,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gap.Launch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -722,6 +722,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gap.Launch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

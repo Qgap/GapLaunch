@@ -6,7 +6,7 @@
 		<key>launchMark</key>
 		<integer>1</integer>
 		<key>urlScheme</key>
-		<string>gapLaunch</string>
+		<string>gapqLaunch</string>
 		<key>appImage</key>
 		<string></string>
 		<key>appName</key>
